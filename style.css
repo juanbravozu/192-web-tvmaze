@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background: #363636;
+}
+
+.logo {
+  width: 154px;
+}
+
+.header_top {
+  display: flex;
+  padding: 15px;
+  padding-left: 95px;
+}
+
+.searchbar {
+  margin: auto 25px;
+}
+
+.searchbar_bar {
+  width: 35vw;
+  height: 37px;
+  padding-left: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+}
+
+.searchbar_button {
+  position: relative;
+  left: -10px;
+  width: 90px;
+  height: 37px;
+  border: none;
+  background-color: #14968c;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.fa-search {
+  color: white;
+}
+
+.log {
+  position: relative;
+  top: 8px;
+  left: 200px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.log_link {
+  
+  font-size: 25px;
+  margin: auto 10px;
+}
+
+.header_bottom {
+  background-color: #14968c;
+  height: 40px;
+  padding-left: 40px;
+  margin: 0;
+}
+
+.navglobal {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navlink {
+  margin: auto 15px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 20px auto;
+}
+
+.breadcrumb {
+  background-color: #E5E5E5;
+  height: 50px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.breadcrumb_item {
+  margin: 0 5px;
+}
+
+.breadlink {
+  color: #14968c;
+}
+
+.title {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.local {
+  height: 40px;
+  margin: 10px 0;
+}
+
+.title_name {
+  font-size: 45px;
+}
+
+.local_item {
+  color: #191919;
+  margin: auto 15px;
+}
+
+.local_item--selected {
+  color: white;
+  background-color: #191919;
+  padding: 5px 10px;
+  margin-left: 0;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  background-color: #0b8514;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -10px;
+}
+
+.fa-heart {
+  color: white;
+}
+
+.button_text {
+  color: white;
+  margin: 10px;
+}
+
+.showdescription {
+  margin: 0 auto;
+}
+
+.description {
+  height: 340px;
+  margin: 0 20px;
+
+}
+
+.showinfo {
+  flex-basis: 30%;
+  background-color: #E5E5E5;
+}
